@@ -12,4 +12,6 @@ app.use(express.static("assets/img"));
 app.use(favicon(__dirname + '/VestALife.ico'));
 app.use(route);
 
+app.use(express.static("assets/img"));
+
 app.listen(app.get("port"));
