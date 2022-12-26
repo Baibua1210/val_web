@@ -9,6 +9,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.use(express.static("assets/img"));
+app.use(express.static("views"));
 app.use(favicon(__dirname + '/VestALife.ico'));
 app.use(route);
 
