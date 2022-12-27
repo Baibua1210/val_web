@@ -26,7 +26,8 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col-2"></div>
-                    <div class="col-8"><img src="/img/Home/Link/link_whitepaper.png" class="w-100">
+                    <div class="col-8"><a href="/whitepaper"><img src="/img/Home/Link/link_whitepaper.png"
+                                class="w-100 whitepaper"></a>
                     </div>
                     <div class="col-2"></div>
                 </div>
@@ -47,7 +48,7 @@
         <div class="col-6 position-absolute bottom-0 start-0">
             <img src="/img/Home/blockchain.png" class="w-100">
         </div>
-        <div class="col-6 position-absolute end-0 mt-5">
+        <div class="col-6 position-absolute end-0">
             <div class="row">
                 <div class="col-12 text-uppercase text-white lh-lg font-res mt-5">
                     Viator has to acknowledge all kinds of dangers in the world of Vest A Life. going through different
@@ -56,10 +57,10 @@
                     themself survive in every
                     situation.
                 </div>
-                <div class="row mt-5">
+                <div class="row mt-3">
                     <div class="col-2"></div>
                     <div class="col-8">
-                        <img src="/img/Home/Link/link_gamepage.png" class="w-100">
+                        <a href="/game"><img src="/img/Home/Link/link_gamepage.png" class="w-100 gamepage"></a>
                     </div>
                     <div class="col-2"></div>
                 </div>
@@ -73,8 +74,7 @@
 <!-- start blockchain -->
 <div class="position-relative">
     <div class="row">
-        <div class="col-8 position-absolute text-uppercase text-white lh-lg font-res"
-            style="margin-top: 10rem; margin-left: 10rem;">
+        <div class="col-8 position-absolute text-uppercase text-white lh-lg font-res mt-5 ms-5">
             Trade in-game assets on chain, Vest A Life helps shape a form of trading system for all players, creating
             choices to play however players see suitable. Blockchain provides an approachable system to earn real
             money-sell and trade, play and win
@@ -93,8 +93,7 @@
         <div class="col-6 position-absolute bottom-0 start-0">
             <img src="/img/Home/collect item.png" class="w-100">
         </div>
-        <div class="col-8 end-0 position-absolute text-uppercase text-white lh-lg font-res"
-            style="margin-top: 10rem;margin-right: 10rem;">
+        <div class="col-8 end-0 position-absolute text-uppercase text-white lh-lg font-res container-passion">
             The Igasha team creates all procedures with passion, to make an impression and new-looks to the Phuket we
             know. Our team intends to bring a world players can experience with passion and joy just like Igasha does.
         </div>
@@ -106,7 +105,7 @@
 <!-- start collect item -->
 <div class="position-relative">
     <div class="position-absolute container">
-        <div class="text-uppercase text-white font-res mt-5" style="margin-left: 10rem;">
+        <div class="text-uppercase text-white font-res container-collect-item">
             <p>
                 <i class="fa-sharp fa-solid fa-circle-dot"></i>
                 Blueprint</p>
@@ -138,7 +137,7 @@
 <div class="position-relative">
     <div class="row">
         <div class="col-4"></div>
-        <div class="col-8 position-absolute end-0" style="margin-top: 10rem;">
+        <div class="col-8 position-absolute end-0 container-promote">
             <div>
                 <img src="/img/Home/promote_community.png" class="w-75">
             </div>
@@ -150,8 +149,43 @@
             </div>
         </div>
     </div>
-    <img src="/img/Promote _ Community_bg.png" class="w-100 scaleImg">
+    <img src="/img/Promote _ Community_bg.png" class="w-100">
 </div>
 <!-- end Promote -->
+
+<script>
+    $(document).ready(function () {
+        $(".whitepaper").hover(
+            function () {
+                $(this).attr("src", "/img/Home/Link/link_whitepaper_hold.png")
+            },
+            function () {
+                $(this).attr("src", "/img/Home/Link/link_whitepaper.png")
+            }
+        );
+
+        $(".gamepage").hover(
+            function () {
+                $(this).attr("src", "/img/Home/Link/link_gamepage_hold.png")
+            },
+            function () {
+                $(this).attr("src", "/img/Home/Link/link_gamepage.png")
+            }
+        );
+    });
+    onUnHoldWhitepaper = () => {
+
+    }
+    onHoldWhitepaper = () => {
+
+    }
+
+    onUnHoldGamepage = () => {
+
+    }
+    onHoldGamepage = () => {
+
+    }
+</script>
 
 <%- include("./footer")-%>
