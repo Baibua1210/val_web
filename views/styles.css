@@ -19,9 +19,32 @@
 .font-footer {
     font-size: 2rem;
 }
+@media (min-width:500px) and (max-width: 565px) {
+    .font-res {
+        font-size: 0.6rem;
+    }
+
+    .container-passion {
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+
+    .container-collect-item {
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .container-promote {
+        margin-top: 3rem;
+    }
+
+    .font-footer {
+        font-size: 0.5rem;
+    }
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 717px) {
+@media (min-width:566px) and (max-width: 717px) {
     .font-res {
         font-size: 0.7rem;
     }
