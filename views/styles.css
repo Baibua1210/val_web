@@ -19,7 +19,40 @@
 .font-footer {
     font-size: 2rem;
 }
-@media (min-width:500px) and (max-width: 565px) {
+
+.font-main {
+    font-size: 4vw;
+    color: rgb(137, 24, 24);
+}
+
+.font-text {
+    font-size: 2vw;
+}
+
+.container-game {
+    margin-right: 0.5vw;
+    margin-left: 2vw;
+}
+
+.container-hope {
+    margin-top: 8vw;
+}
+
+.font-coming{
+    font-size: 5.5vw;
+}
+
+.container-coming{
+    margin-top: 15vw;
+}
+
+.container-about{
+    margin-top: 8.5vw;
+}
+
+
+
+@media (min-width:500px) and (max-width: 566px) {
     .font-res {
         font-size: 0.6rem;
     }
@@ -41,6 +74,7 @@
     .font-footer {
         font-size: 0.5rem;
     }
+    
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
