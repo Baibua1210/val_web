@@ -1,8 +1,9 @@
 <%- include("../header")-%>
 
-    <div class="bg-image">
-        <div class="container-fluid pt-5 my-5 position-absolute">
-            <div class="row d-flex justify-content-center text-uppercase container-about">
+    <div class="container-fluid">
+
+        <div class="position-relative">
+            <div class="row position-absolute justify-content-center text-uppercase container-about" style="padding-top: 2vw;">
                 <div class="col-8">
                     <p class="fw-bolder font-about" style="color: rgb(137, 24, 24);">
                         Who We Are
@@ -17,13 +18,15 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4  position-absolute end-0 me-3"> 
-                <img class="img-fluid places-self-end" src="/img/re_logo.png" style="color: transparent;">
-            </div>
+        </div>
+    </div>
+        <img class="img-fluid w-100" src="/img/bg_About Us.png">
+        <div class="position-relative">
+            <div class="col-8 position-absolute"></div>
+            <div class="col-4 position-absolute bottom-0 end-0">
+                <img class="img-fluid w-100" src="/img/re_logo.png">
             </div>
         </div>
-        <img class="img-fluid" src="/img/bg_About Us.png">
-    </div>
+    
 
     <%- include("../footer")-%>

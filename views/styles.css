@@ -38,20 +38,29 @@
     margin-top: 8vw;
 }
 
-.font-coming{
+.font-coming {
     font-size: 5.5vw;
 }
 
-.container-coming{
+.container-coming {
     margin-top: 15vw;
 }
 
-.container-about{
+.container-about {
     margin-top: 2vw;
 }
-.font-about{
+
+.font-about {
     font-size: 3.5vw;
 }
-.font-aboutus{
+
+.font-aboutus {
     font-size: 1.7vw;
+}
+.topnav a{
+    color: #fff;
+  }
+.topnav a:hover {
+    background-color: #000;
+    color: rgb(176, 31, 31);
 }
