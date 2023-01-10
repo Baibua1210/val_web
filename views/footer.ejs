@@ -1,8 +1,8 @@
 <div class="">
-    <div class="row w-100 position-absolute">
-        <div class="col-lg-9 text-white">
-            <div class="row">
-                <nav class="col-sm-6 col-lg-4">
+    <div class="container-fluid row w-100 position-absolute">
+        <div class="col-12 text-white">
+            <div class="row col-12">
+                <nav class="col-3">
                     <ul class="text-uppercase lh-lg">
                         <p></p>
                         <a class="nav-link fw-bold home-font" href="/game">Game</a>
@@ -11,7 +11,7 @@
                         <a class="nav-link font-footer" href="/versions">Version Update</a>
                     </ul>
                 </nav>
-                <nav class="col-sm-6 col-lg-4">
+                <nav class="col-3">
                     <ul class="text-uppercase lh-lg">
                         <p></p>
                         <div class="fw-bold home-font">Blockchain</div>
@@ -20,7 +20,7 @@
                         <a class="nav-link font-footer" href="/whitepaper">white paper</a>
                     </ul>
                 </nav>
-                <nav class="col-sm-6 col-lg-4">
+                <nav class="col-3">
                     <ul class="text-uppercase lh-lg">
                         <p></p>
                         <div class="fw-bold home-font">About Us</div>
@@ -32,29 +32,30 @@
             </div>
         </div>
 
-        
+
     </div>
-    
-    <div class="position-absolute col-lg-3 border border-success end-0 me-3">
-        <img class="img-fluid w-100" src="/img/vestalife_logo.png" alt="VestALife">
-        <div class="row">
-            <div class="col">
-                <img class="w-100" src="/img/discord.png" onclick="openDiscord()">
-            </div>
-            <div class="col">
-                <img class="w-100" src="/img/twitter.png" onclick="openTwitter()">
-            </div>
-            <div class="col">
-                <img class="w-100" src="/img/facebook.png" onclick="openFacebook()">
-            </div>
-            <div class="col">
-                <img class="w-100" src="/img/youtube.png" onclick="openYoutube()">
-            </div>
-        </div>
-    </div>
-    <img class="w-100" src="/img/footer_bg.png">
+
 </div>
 
+<div class="position-absolute col-3 end-0 me-3">
+    <img class="img-fluid w-100" src="/img/vestalife_logo.png" alt="VestALife">
+    <div class="row">
+        <div class="col">
+            <img class="img-fluid w-100" src="/img/discord.png" onclick="openDiscord()">
+        </div>
+        <div class="col">
+            <img class="img-fluid w-100" src="/img/twitter.png" onclick="openTwitter()">
+        </div>
+        <div class="col">
+            <img class="img-fluid w-100" src="/img/facebook.png" onclick="openFacebook()">
+        </div>
+        <div class="col">
+            <img class="img-fluid w-100" src="/img/youtube.png" onclick="openYoutube()">
+        </div>
+    </div>
+
+</div>
+<img class="img-fluid w-100 " src="/img/footer_bg.png">
 <Script>
     openDiscord = () => {
         window.open("https://discord.gg/yqXFXaVS");
